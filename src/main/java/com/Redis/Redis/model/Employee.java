@@ -6,7 +6,6 @@ import lombok.Data;
 import org.springframework.stereotype.Component;
 
 @Data
-@Component
 public class Employee implements Serializable {
 
     private static final long serialVersionUID = 1L;
